@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 750" width="100%" height="100%">
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M 1 1 L 7 4 L 1 7 Z" fill="#000000" />
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, Helvetica, sans-serif; user-select: none; }
+    </style>
+  </defs>
+<rect x="4" y="4" width="1042" height="742" rx="8" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<rect x="4" y="4" width="1042" height="30" rx="8" fill="#e8e8e8" stroke="#000000" stroke-width="1.5"/>
+<rect x="4" y="18" width="1042" height="16" rx="0" fill="#e8e8e8" stroke="#e8e8e8" stroke-width="0"/>
+<line x1="4" y1="34" x2="1046" y2="34" stroke="#000000" stroke-width="1.5"/>
+<text x="525.0" y="22" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">SIPANDA - Approval Peminjaman Admin</text>
+<rect x="1018" y="9" width="20" height="18" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<line x1="1021" y1="12" x2="1035" y2="24" stroke="#000000" stroke-width="1.5"/>
+<line x1="1021" y1="24" x2="1035" y2="12" stroke="#000000" stroke-width="1.5"/>
+<rect x="4" y="34" width="1042" height="38" rx="0" fill="#f8f8f8" stroke="#f8f8f8" stroke-width="0"/>
+<line x1="4" y1="72" x2="1046" y2="72" stroke="#000000" stroke-width="1.5"/>
+<rect x="14" y="41" width="60" height="24" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="28" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">←</text>
+<line x1="44" y1="41" x2="44" y2="65" stroke="#000000" stroke-width="1"/>
+<text x="58" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">→</text>
+<rect x="80" y="41" width="28" height="24" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="94" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">↻</text>
+<rect x="116" y="41" width="916" height="24" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="126" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#000000" text-anchor="start">https://sipanda.dispora.palembang.go.id/admin/peminjaman/42</text>
+<rect x="12" y="81" width="171" height="661" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="20" y="89" width="155" height="44" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="20" y1="89" x2="175" y2="133" stroke="#000000" stroke-width="1.2"/>
+<line x1="20" y1="133" x2="175" y2="89" stroke="#000000" stroke-width="1.2"/>
+<rect x="66.0" y="102.0" width="63" height="18" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+<text x="97.5" y="115.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="middle">SIPANDA</text>
+<text x="97.5" y="147" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="middle">ROLE: ADMIN</text>
+<line x1="20" y1="153" x2="175" y2="153" stroke="#000000" stroke-width="1"/>
+<rect x="20" y="163" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="164.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="180.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Dashboard</text>
+<rect x="20" y="195" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="196.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="212.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Manajemen User</text>
+<rect x="20" y="227" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="228.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="244.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Master Aset</text>
+<rect x="20" y="259" width="155" height="26" rx="8" fill="#eaeaea" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="260.5" width="152" height="23" rx="7" fill="none" stroke="#999999" stroke-width="1"/>
+<text x="97.5" y="276.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="middle">Peminjaman</text>
+<rect x="20" y="291" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="292.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="308.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Laporan/Export</text>
+<rect x="20" y="323" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="324.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="340.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Notifikasi</text>
+<rect x="20" y="355" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="356.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="372.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Profil Saya</text>
+<rect x="20" y="387" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="388.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="404.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Keluar</text>
+<line x1="20" y1="425" x2="175" y2="425" stroke="#000000" stroke-width="1"/>
+<text x="20" y="439" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Status Aset</text>
+<rect x="20" y="447" width="16" height="16" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="449" x2="34" y2="461" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="461" x2="34" y2="449" stroke="#000000" stroke-width="1.5"/>
+<rect x="44" y="451" width="125" height="7" rx="3" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="20" y="467" width="16" height="16" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="469" x2="34" y2="481" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="481" x2="34" y2="469" stroke="#000000" stroke-width="1.5"/>
+<rect x="44" y="471" width="125" height="7" rx="3" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="20" y="487" width="16" height="16" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="489" x2="34" y2="501" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="501" x2="34" y2="489" stroke="#000000" stroke-width="1.5"/>
+<rect x="44" y="491" width="125" height="7" rx="3" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="187" y="81" width="851" height="42" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="199" y="88" width="260" height="26" rx="13" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="213" y="105" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#777777" text-anchor="start">search aset / transaksi...</text>
+<text x="477" y="105" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="start">|  Approval Peminjaman #TRX-0042</text>
+<rect x="830" y="88" width="60" height="26" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="831.5" y="89.5" width="57" height="23" rx="5" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="860.0" y="105.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Notif.</text>
+<rect x="896" y="88" width="64" height="26" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="897.5" y="89.5" width="61" height="23" rx="5" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="928.0" y="105.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Profil</text>
+<rect x="966" y="88" width="64" height="26" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="967.5" y="89.5" width="61" height="23" rx="5" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="998.0" y="105.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Keluar</text>
+<rect x="195" y="126" width="430.04" height="520" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="211" y="148" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="start">Rincian Permohonan Peminjaman</text>
+<line x1="195" y1="158" x2="625.04" y2="158" stroke="#000000" stroke-width="1"/>
+<text x="211" y="180" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">No Transaksi</text>
+<text x="295" y="180" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#000000" text-anchor="start">: TRX-2026-0042</text>
+<text x="211" y="206" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Nama Pemohon</text>
+<text x="295" y="206" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">: Ahmad Fauzi, S.STP</text>
+<text x="211" y="232" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Instansi</text>
+<text x="295" y="232" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">: Bappeda Kota Palembang (Prioritas Skor 3)</text>
+<text x="211" y="258" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Aset Diminta</text>
+<text x="295" y="258" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">: Sound System Portable Wireless (2 Unit)</text>
+<text x="211" y="284" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Jadwal Pinjam</text>
+<text x="295" y="284" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">: 20 Agustus 2026 s/d 22 Agustus 2026</text>
+<text x="211" y="310" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Keperluan</text>
+<text x="295" y="310" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">: Turnamen Futsal Pemuda Walikota Cup 2026</text>
+<text x="211" y="346" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Catatan Verifikasi Pengelola Sarpras:</text>
+<rect x="211" y="356" width="398.04" height="54" rx="4" fill="#f8f8f8" stroke="#000000" stroke-width="1"/>
+<text x="219" y="376" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">"Aset telah diperiksa di gudang, kondisi fisik baik.</text>
+<text x="219" y="390" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">Direkomendasikan untuk disetujui."</text>
+<rect x="639.04" y="126" width="396.96" height="520" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="655.04" y="148" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="start">Persetujuan Kepala Dinas / Admin</text>
+<line x1="639.04" y1="158" x2="1036.0" y2="158" stroke="#000000" stroke-width="1"/>
+<text x="655.04" y="175" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Nomor Surat Izin Keluar *</text>
+<rect x="655.04" y="180" width="364.96" height="32" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="665.04" y="200.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#000000" text-anchor="start">SIPANDA/DISPORA/2026/08/0042</text>
+<text x="655.04" y="235" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Pejabat Penandatangan *</text>
+<rect x="655.04" y="240" width="364.96" height="32" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="665.04" y="260.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#000000" text-anchor="start">H. Edison, S.Sos., M.Si (Kepala Dinas)</text>
+<text x="655.04" y="295" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Catatan / Syarat Khusus</text>
+<rect x="655.04" y="300" width="364.96" height="60" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="665.04" y="318" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#000000" text-anchor="start">Disetujui. Pengembalian maksimal tgl 22 Agustus 2026.</text>
+<line x1="1010.0" y1="357" x2="1017.0" y2="350" stroke="#666666" stroke-width="1.2"/>
+<line x1="1014.0" y1="357" x2="1017.0" y2="354" stroke="#666666" stroke-width="1.2"/>
+<rect x="655.04" y="386" width="16" height="16" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="657.04" y1="388" x2="669.04" y2="400" stroke="#000000" stroke-width="1.5"/>
+<line x1="657.04" y1="400" x2="669.04" y2="388" stroke="#000000" stroke-width="1.5"/>
+<text x="679.04" y="398" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#000000" text-anchor="start">Terbitkan Surat Izin Resmi &amp; Token Barcode Digital</text>
+<rect x="655.04" y="426" width="364.96" height="38" rx="6" fill="#eaeaea" stroke="#000000" stroke-width="1.5"/>
+<rect x="656.54" y="427.5" width="361.96" height="35" rx="5" fill="none" stroke="#999999" stroke-width="1"/>
+<text x="837.52" y="449.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">✓ SETUJUI &amp; TERBITKAN SURAT IZIN</text>
+<rect x="655.04" y="474" width="364.96" height="32" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="656.54" y="475.5" width="361.96" height="29" rx="5" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="837.52" y="494.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" fill="#000000" text-anchor="middle">✕ Tolak Permohonan</text>
+</svg>

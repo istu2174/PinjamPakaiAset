@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 750" width="100%" height="100%">
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M 1 1 L 7 4 L 1 7 Z" fill="#000000" />
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, Helvetica, sans-serif; user-select: none; }
+    </style>
+  </defs>
+<rect x="4" y="4" width="1042" height="742" rx="8" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<rect x="4" y="4" width="1042" height="30" rx="8" fill="#e8e8e8" stroke="#000000" stroke-width="1.5"/>
+<rect x="4" y="18" width="1042" height="16" rx="0" fill="#e8e8e8" stroke="#e8e8e8" stroke-width="0"/>
+<line x1="4" y1="34" x2="1046" y2="34" stroke="#000000" stroke-width="1.5"/>
+<text x="525.0" y="22" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">SIPANDA - Cari Aset (Halaman Utama Peminjam)</text>
+<rect x="1018" y="9" width="20" height="18" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<line x1="1021" y1="12" x2="1035" y2="24" stroke="#000000" stroke-width="1.5"/>
+<line x1="1021" y1="24" x2="1035" y2="12" stroke="#000000" stroke-width="1.5"/>
+<rect x="4" y="34" width="1042" height="38" rx="0" fill="#f8f8f8" stroke="#f8f8f8" stroke-width="0"/>
+<line x1="4" y1="72" x2="1046" y2="72" stroke="#000000" stroke-width="1.5"/>
+<rect x="14" y="41" width="60" height="24" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="28" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">←</text>
+<line x1="44" y1="41" x2="44" y2="65" stroke="#000000" stroke-width="1"/>
+<text x="58" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">→</text>
+<rect x="80" y="41" width="28" height="24" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="94" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">↻</text>
+<rect x="116" y="41" width="916" height="24" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="126" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#000000" text-anchor="start">https://sipanda.dispora.palembang.go.id/peminjam/cari</text>
+<rect x="12" y="81" width="171" height="661" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="20" y="89" width="155" height="44" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="20" y1="89" x2="175" y2="133" stroke="#000000" stroke-width="1.2"/>
+<line x1="20" y1="133" x2="175" y2="89" stroke="#000000" stroke-width="1.2"/>
+<rect x="66.0" y="102.0" width="63" height="18" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+<text x="97.5" y="115.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="middle">SIPANDA</text>
+<text x="97.5" y="147" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="middle">ROLE: PEMINJAM</text>
+<line x1="20" y1="153" x2="175" y2="153" stroke="#000000" stroke-width="1"/>
+<rect x="20" y="163" width="155" height="26" rx="8" fill="#eaeaea" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="164.5" width="152" height="23" rx="7" fill="none" stroke="#999999" stroke-width="1"/>
+<text x="97.5" y="180.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="middle">Cari Aset</text>
+<rect x="20" y="195" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="196.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="212.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Dashboard</text>
+<rect x="20" y="227" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="228.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="244.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Ajukan Pinjam</text>
+<rect x="20" y="259" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="260.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="276.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Riwayat Pinjam</text>
+<rect x="20" y="291" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="292.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="308.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Keluhan Aset</text>
+<rect x="20" y="323" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="324.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="340.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Notifikasi</text>
+<rect x="20" y="355" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="356.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="372.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Profil Saya</text>
+<rect x="20" y="387" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="388.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="404.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Keluar</text>
+<line x1="20" y1="425" x2="175" y2="425" stroke="#000000" stroke-width="1"/>
+<text x="20" y="439" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Status Aset</text>
+<rect x="20" y="447" width="16" height="16" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="449" x2="34" y2="461" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="461" x2="34" y2="449" stroke="#000000" stroke-width="1.5"/>
+<rect x="44" y="451" width="125" height="7" rx="3" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="20" y="467" width="16" height="16" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="469" x2="34" y2="481" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="481" x2="34" y2="469" stroke="#000000" stroke-width="1.5"/>
+<rect x="44" y="471" width="125" height="7" rx="3" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="20" y="487" width="16" height="16" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="489" x2="34" y2="501" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="501" x2="34" y2="489" stroke="#000000" stroke-width="1.5"/>
+<rect x="44" y="491" width="125" height="7" rx="3" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="187" y="81" width="851" height="42" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="199" y="88" width="260" height="26" rx="13" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="213" y="105" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#777777" text-anchor="start">search aset / transaksi...</text>
+<text x="477" y="105" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="start">|  Cari Aset Publik</text>
+<rect x="830" y="88" width="60" height="26" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="831.5" y="89.5" width="57" height="23" rx="5" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="860.0" y="105.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Notif.</text>
+<rect x="896" y="88" width="64" height="26" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="897.5" y="89.5" width="61" height="23" rx="5" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="928.0" y="105.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Profil</text>
+<rect x="966" y="88" width="64" height="26" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="967.5" y="89.5" width="61" height="23" rx="5" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="998.0" y="105.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Keluar</text>
+<rect x="195" y="126" width="841" height="100" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="195" y1="126" x2="1036" y2="226" stroke="#000000" stroke-width="1.2"/>
+<line x1="195" y1="226" x2="1036" y2="126" stroke="#000000" stroke-width="1.2"/>
+<rect x="538.5" y="167.0" width="154" height="18" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+<text x="615.5" y="180.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="middle">BANNER / HERO SEARCH</text>
+<rect x="195" y="236" width="92" height="26" rx="8" fill="#eaeaea" stroke="#000000" stroke-width="1.5"/>
+<rect x="196.5" y="237.5" width="89" height="23" rx="7" fill="none" stroke="#999999" stroke-width="1"/>
+<text x="241.0" y="253.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="middle">Semua Aset</text>
+<rect x="295" y="236" width="106" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="296.5" y="237.5" width="103" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="348.0" y="253.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Sound System</text>
+<rect x="409" y="236" width="134" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="410.5" y="237.5" width="131" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="476.0" y="253.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Tenda &amp; Panggung</text>
+<rect x="551" y="236" width="106" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="552.5" y="237.5" width="103" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="604.0" y="253.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Kursi &amp; Meja</text>
+<rect x="665" y="236" width="113" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="666.5" y="237.5" width="110" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="721.5" y="253.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Alat Olahraga</text>
+<rect x="786" y="236" width="120" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="787.5" y="237.5" width="117" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="846.0" y="253.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Genset / Mesin</text>
+<text x="195" y="284" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="start">Aset Tersedia (Direkomendasikan)</text>
+<rect x="195.0" y="292" width="202.75" height="195" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="201.0" y="298" width="190.75" height="85" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="201.0" y1="298" x2="391.75" y2="383" stroke="#000000" stroke-width="1.2"/>
+<line x1="201.0" y1="383" x2="391.75" y2="298" stroke="#000000" stroke-width="1.2"/>
+<text x="203.0" y="398" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Sound System Portable</text>
+<text x="203.0" y="412" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Audio Yamaha · 2 Unit</text>
+<rect x="203.0" y="422" width="162.75" height="6" rx="4" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="203.0" y="432" width="142.75" height="6" rx="4" fill="#aaaaaa" stroke="none" stroke-width="0"/>
+<rect x="203.0" y="446" width="70" height="16" rx="8.0" fill="#333333" stroke="#000000" stroke-width="1.2"/>
+<text x="238.0" y="457.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Layak Pakai</text>
+<rect x="322.75" y="444" width="68" height="22" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="356.75" y="459.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" fill="#000000" text-anchor="middle">Pinjam →</text>
+<rect x="407.75" y="292" width="202.75" height="195" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="413.75" y="298" width="190.75" height="85" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="413.75" y1="298" x2="604.5" y2="383" stroke="#000000" stroke-width="1.2"/>
+<line x1="413.75" y1="383" x2="604.5" y2="298" stroke="#000000" stroke-width="1.2"/>
+<text x="415.75" y="398" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Tenda Kerucut 3x3m</text>
+<text x="415.75" y="412" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Sarnafil Besi · 4 Unit</text>
+<rect x="415.75" y="422" width="162.75" height="6" rx="4" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="415.75" y="432" width="142.75" height="6" rx="4" fill="#aaaaaa" stroke="none" stroke-width="0"/>
+<rect x="415.75" y="446" width="70" height="16" rx="8.0" fill="#333333" stroke="#000000" stroke-width="1.2"/>
+<text x="450.75" y="457.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Layak Pakai</text>
+<rect x="535.5" y="444" width="68" height="22" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="569.5" y="459.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" fill="#000000" text-anchor="middle">Pinjam →</text>
+<rect x="620.5" y="292" width="202.75" height="195" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="626.5" y="298" width="190.75" height="85" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="626.5" y1="298" x2="817.25" y2="383" stroke="#000000" stroke-width="1.2"/>
+<line x1="626.5" y1="383" x2="817.25" y2="298" stroke="#000000" stroke-width="1.2"/>
+<text x="628.5" y="398" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Genset Portable 5KVA</text>
+<text x="628.5" y="412" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Honda 5000W · 1 Unit</text>
+<rect x="628.5" y="422" width="162.75" height="6" rx="4" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="628.5" y="432" width="142.75" height="6" rx="4" fill="#aaaaaa" stroke="none" stroke-width="0"/>
+<rect x="628.5" y="446" width="70" height="16" rx="8.0" fill="#f0f0f0" stroke="#000000" stroke-width="1.2"/>
+<text x="663.5" y="457.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="middle">Perlu Servis</text>
+<rect x="748.25" y="444" width="68" height="22" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="782.25" y="459.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" fill="#000000" text-anchor="middle">Pinjam →</text>
+<rect x="833.25" y="292" width="202.75" height="195" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="839.25" y="298" width="190.75" height="85" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="839.25" y1="298" x2="1030.0" y2="383" stroke="#000000" stroke-width="1.2"/>
+<line x1="839.25" y1="383" x2="1030.0" y2="298" stroke="#000000" stroke-width="1.2"/>
+<text x="841.25" y="398" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Kursi Lipat Chitose</text>
+<text x="841.25" y="412" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Kursi Besi · 50 Unit</text>
+<rect x="841.25" y="422" width="162.75" height="6" rx="4" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="841.25" y="432" width="142.75" height="6" rx="4" fill="#aaaaaa" stroke="none" stroke-width="0"/>
+<rect x="841.25" y="446" width="70" height="16" rx="8.0" fill="#333333" stroke="#000000" stroke-width="1.2"/>
+<text x="876.25" y="457.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Layak Pakai</text>
+<rect x="961.0" y="444" width="68" height="22" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="995.0" y="459.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" fill="#000000" text-anchor="middle">Pinjam →</text>
+<text x="195" y="513" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="start">Peminjaman Sering Digunakan</text>
+<rect x="195.0" y="521" width="202.75" height="100" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="201.0" y="527" width="75" height="88" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="201.0" y1="527" x2="276.0" y2="615" stroke="#000000" stroke-width="1.2"/>
+<line x1="201.0" y1="615" x2="276.0" y2="527" stroke="#000000" stroke-width="1.2"/>
+<text x="283.0" y="545" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">Panggung Rigging 6x4m</text>
+<text x="283.0" y="559" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Modul Portabel · 1 Set</text>
+<rect x="283.0" y="569" width="106.75" height="5" rx="4" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="283.0" y="583" width="65" height="16" rx="8.0" fill="#333333" stroke="#000000" stroke-width="1.2"/>
+<text x="315.5" y="594.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Layak Pakai</text>
+<rect x="407.75" y="521" width="202.75" height="100" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="413.75" y="527" width="75" height="88" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="413.75" y1="527" x2="488.75" y2="615" stroke="#000000" stroke-width="1.2"/>
+<line x1="413.75" y1="615" x2="488.75" y2="527" stroke="#000000" stroke-width="1.2"/>
+<text x="495.75" y="545" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">Matras Senam Busa</text>
+<text x="495.75" y="559" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Matras Standard · 6 Unit</text>
+<rect x="495.75" y="569" width="106.75" height="5" rx="4" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="495.75" y="583" width="65" height="16" rx="8.0" fill="#f0f0f0" stroke="#000000" stroke-width="1.2"/>
+<text x="528.25" y="594.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="middle">Perlu Servis</text>
+<rect x="620.5" y="521" width="202.75" height="100" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="626.5" y="527" width="75" height="88" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="626.5" y1="527" x2="701.5" y2="615" stroke="#000000" stroke-width="1.2"/>
+<line x1="626.5" y1="615" x2="701.5" y2="527" stroke="#000000" stroke-width="1.2"/>
+<text x="708.5" y="545" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">Meja Bundar Acara</text>
+<text x="708.5" y="559" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Kayu Lapis · 10 Unit</text>
+<rect x="708.5" y="569" width="106.75" height="5" rx="4" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="708.5" y="583" width="65" height="16" rx="8.0" fill="#333333" stroke="#000000" stroke-width="1.2"/>
+<text x="741.0" y="594.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Layak Pakai</text>
+<rect x="833.25" y="521" width="202.75" height="100" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="839.25" y="527" width="75" height="88" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="839.25" y1="527" x2="914.25" y2="615" stroke="#000000" stroke-width="1.2"/>
+<line x1="839.25" y1="615" x2="914.25" y2="527" stroke="#000000" stroke-width="1.2"/>
+<text x="921.25" y="545" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">Wireless Mic Clip-on</text>
+<text x="921.25" y="559" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Receiver UHF · 4 Set</text>
+<rect x="921.25" y="569" width="106.75" height="5" rx="4" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="921.25" y="583" width="65" height="16" rx="8.0" fill="#333333" stroke="#000000" stroke-width="1.2"/>
+<text x="953.75" y="594.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Layak Pakai</text>
+<path d="M 1016 176 Q 986.0 156.0 916 176" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#arrowhead)"/>
+<rect x="943.5" y="166" width="145" height="20" rx="3" fill="#333333" stroke="#000000" stroke-width="1"/>
+<text x="1016" y="180" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">Klasifikasi DT C4.5</text>
+</svg>

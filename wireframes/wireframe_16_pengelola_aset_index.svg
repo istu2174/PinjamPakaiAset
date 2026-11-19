@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 750" width="100%" height="100%">
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M 1 1 L 7 4 L 1 7 Z" fill="#000000" />
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, Helvetica, sans-serif; user-select: none; }
+    </style>
+  </defs>
+<rect x="4" y="4" width="1042" height="742" rx="8" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<rect x="4" y="4" width="1042" height="30" rx="8" fill="#e8e8e8" stroke="#000000" stroke-width="1.5"/>
+<rect x="4" y="18" width="1042" height="16" rx="0" fill="#e8e8e8" stroke="#e8e8e8" stroke-width="0"/>
+<line x1="4" y1="34" x2="1046" y2="34" stroke="#000000" stroke-width="1.5"/>
+<text x="525.0" y="22" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">SIPANDA - Daftar Aset &amp; Evaluasi DT</text>
+<rect x="1018" y="9" width="20" height="18" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<line x1="1021" y1="12" x2="1035" y2="24" stroke="#000000" stroke-width="1.5"/>
+<line x1="1021" y1="24" x2="1035" y2="12" stroke="#000000" stroke-width="1.5"/>
+<rect x="4" y="34" width="1042" height="38" rx="0" fill="#f8f8f8" stroke="#f8f8f8" stroke-width="0"/>
+<line x1="4" y1="72" x2="1046" y2="72" stroke="#000000" stroke-width="1.5"/>
+<rect x="14" y="41" width="60" height="24" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="28" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">←</text>
+<line x1="44" y1="41" x2="44" y2="65" stroke="#000000" stroke-width="1"/>
+<text x="58" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">→</text>
+<rect x="80" y="41" width="28" height="24" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="94" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">↻</text>
+<rect x="116" y="41" width="916" height="24" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="126" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#000000" text-anchor="start">https://sipanda.dispora.palembang.go.id/pengelola/aset</text>
+<rect x="12" y="81" width="171" height="661" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="20" y="89" width="155" height="44" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="20" y1="89" x2="175" y2="133" stroke="#000000" stroke-width="1.2"/>
+<line x1="20" y1="133" x2="175" y2="89" stroke="#000000" stroke-width="1.2"/>
+<rect x="66.0" y="102.0" width="63" height="18" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+<text x="97.5" y="115.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="middle">SIPANDA</text>
+<text x="97.5" y="147" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="middle">ROLE: PENGELOLA</text>
+<line x1="20" y1="153" x2="175" y2="153" stroke="#000000" stroke-width="1"/>
+<rect x="20" y="163" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="164.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="180.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Dashboard</text>
+<rect x="20" y="195" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="196.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="212.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Pengajuan</text>
+<rect x="20" y="227" width="155" height="26" rx="8" fill="#eaeaea" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="228.5" width="152" height="23" rx="7" fill="none" stroke="#999999" stroke-width="1"/>
+<text x="97.5" y="244.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="middle">Penilaian DT</text>
+<rect x="20" y="259" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="260.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="276.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Keluhan Masuk</text>
+<rect x="20" y="291" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="292.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="308.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Notifikasi</text>
+<rect x="20" y="323" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="324.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="340.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Profil Saya</text>
+<rect x="20" y="355" width="155" height="26" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="21.5" y="356.5" width="152" height="23" rx="7" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="97.5" y="372.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Keluar</text>
+<line x1="20" y1="393" x2="175" y2="393" stroke="#000000" stroke-width="1"/>
+<text x="20" y="407" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Status Aset</text>
+<rect x="20" y="415" width="16" height="16" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="417" x2="34" y2="429" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="429" x2="34" y2="417" stroke="#000000" stroke-width="1.5"/>
+<rect x="44" y="419" width="125" height="7" rx="3" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="20" y="435" width="16" height="16" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="437" x2="34" y2="449" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="449" x2="34" y2="437" stroke="#000000" stroke-width="1.5"/>
+<rect x="44" y="439" width="125" height="7" rx="3" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="20" y="455" width="16" height="16" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="457" x2="34" y2="469" stroke="#000000" stroke-width="1.5"/>
+<line x1="22" y1="469" x2="34" y2="457" stroke="#000000" stroke-width="1.5"/>
+<rect x="44" y="459" width="125" height="7" rx="3" fill="#888888" stroke="none" stroke-width="0"/>
+<rect x="187" y="81" width="851" height="42" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="199" y="88" width="260" height="26" rx="13" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="213" y="105" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#777777" text-anchor="start">search aset / transaksi...</text>
+<text x="477" y="105" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="start">|  Daftar Aset &amp; Status Decision Tree</text>
+<rect x="830" y="88" width="60" height="26" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="831.5" y="89.5" width="57" height="23" rx="5" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="860.0" y="105.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Notif.</text>
+<rect x="896" y="88" width="64" height="26" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="897.5" y="89.5" width="61" height="23" rx="5" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="928.0" y="105.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Profil</text>
+<rect x="966" y="88" width="64" height="26" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="967.5" y="89.5" width="61" height="23" rx="5" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="998.0" y="105.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Keluar</text>
+<rect x="195" y="126" width="120" height="26" rx="13.0" fill="#333333" stroke="#000000" stroke-width="1.2"/>
+<text x="255.0" y="142.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Layak Pakai: 22</text>
+<rect x="323" y="126" width="130" height="26" rx="13.0" fill="#f0f0f0" stroke="#000000" stroke-width="1.2"/>
+<text x="388.0" y="142.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="middle">Perlu Servis: 3</text>
+<rect x="461" y="126" width="130" height="26" rx="13.0" fill="#f0f0f0" stroke="#000000" stroke-width="1.2"/>
+<text x="526.0" y="142.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="middle">Layak Lelang: 1</text>
+<rect x="796" y="126" width="240" height="26" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="806" y="143.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#777777" text-anchor="start">search aset / kode...</text>
+<rect x="195" y="162" width="841" height="480" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="195" y="162" width="841" height="30" rx="0" fill="#eaeaea" stroke="#000000" stroke-width="1"/>
+<text x="207" y="182" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">NO</text>
+<text x="235" y="182" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">FOTO</text>
+<text x="285" y="182" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">KODE &amp; NAMA ASET</text>
+<text x="485" y="182" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">KATEGORI</text>
+<text x="595" y="182" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">KONDISI</text>
+<text x="685" y="182" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">USIA</text>
+<text x="755" y="182" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">HASIL DECISION TREE</text>
+<text x="915" y="182" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">AKSI</text>
+<rect x="199" y="198" width="833" height="54" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+<text x="207" y="228" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" fill="#000000" text-anchor="start">1</text>
+<rect x="235" y="206" width="38" height="36" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="235" y1="206" x2="273" y2="242" stroke="#000000" stroke-width="1.2"/>
+<line x1="235" y1="242" x2="273" y2="206" stroke="#000000" stroke-width="1.2"/>
+<text x="285" y="222" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">Sound System Portable Yamaha</text>
+<text x="285" y="236" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Kode: AST-001</text>
+<text x="485" y="228" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">Audio</text>
+<text x="595" y="228" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">4/5 (Baik)</text>
+<text x="685" y="228" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">2 Thn</text>
+<rect x="755" y="216" width="140" height="18" rx="9.0" fill="#333333" stroke="#000000" stroke-width="1.2"/>
+<text x="825.0" y="228.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Layak Pakai</text>
+<rect x="915" y="212" width="80" height="26" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="916.5" y="213.5" width="77" height="23" rx="3" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="955.0" y="229.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="middle">Evaluasi DT</text>
+<rect x="199" y="258" width="833" height="54" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+<text x="207" y="288" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" fill="#000000" text-anchor="start">2</text>
+<rect x="235" y="266" width="38" height="36" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="235" y1="266" x2="273" y2="302" stroke="#000000" stroke-width="1.2"/>
+<line x1="235" y1="302" x2="273" y2="266" stroke="#000000" stroke-width="1.2"/>
+<text x="285" y="282" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">Tenda Kerucut 3x3m Sarnafil</text>
+<text x="285" y="296" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Kode: AST-004</text>
+<text x="485" y="288" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">Tenda</text>
+<text x="595" y="288" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">5/5 (Sangat Baik)</text>
+<text x="685" y="288" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">1 Thn</text>
+<rect x="755" y="276" width="140" height="18" rx="9.0" fill="#333333" stroke="#000000" stroke-width="1.2"/>
+<text x="825.0" y="288.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Layak Pakai</text>
+<rect x="915" y="272" width="80" height="26" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="916.5" y="273.5" width="77" height="23" rx="3" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="955.0" y="289.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="middle">Evaluasi DT</text>
+<rect x="199" y="318" width="833" height="54" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+<text x="207" y="348" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" fill="#000000" text-anchor="start">3</text>
+<rect x="235" y="326" width="38" height="36" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="235" y1="326" x2="273" y2="362" stroke="#000000" stroke-width="1.2"/>
+<line x1="235" y1="362" x2="273" y2="326" stroke="#000000" stroke-width="1.2"/>
+<text x="285" y="342" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">Genset Portable 5KVA Honda</text>
+<text x="285" y="356" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Kode: AST-005</text>
+<text x="485" y="348" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">Mesin</text>
+<text x="595" y="348" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">2/5 (Kurang)</text>
+<text x="685" y="348" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">5 Thn</text>
+<rect x="755" y="336" width="140" height="18" rx="9.0" fill="#f0f0f0" stroke="#000000" stroke-width="1.2"/>
+<text x="825.0" y="348.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="middle">Perlu Pemeliharaan</text>
+<rect x="915" y="332" width="80" height="26" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="916.5" y="333.5" width="77" height="23" rx="3" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="955.0" y="349.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="middle">Evaluasi DT</text>
+<rect x="199" y="378" width="833" height="54" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+<text x="207" y="408" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" fill="#000000" text-anchor="start">4</text>
+<rect x="235" y="386" width="38" height="36" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="235" y1="386" x2="273" y2="422" stroke="#000000" stroke-width="1.2"/>
+<line x1="235" y1="422" x2="273" y2="386" stroke="#000000" stroke-width="1.2"/>
+<text x="285" y="402" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">Matras Senam Busa Standard</text>
+<text x="285" y="416" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Kode: AST-009</text>
+<text x="485" y="408" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">Olahraga</text>
+<text x="595" y="408" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">1/5 (Rusak)</text>
+<text x="685" y="408" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">7 Thn</text>
+<rect x="755" y="396" width="140" height="18" rx="9.0" fill="#f0f0f0" stroke="#000000" stroke-width="1.2"/>
+<text x="825.0" y="408.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="middle">Layak Lelang / Afkir</text>
+<rect x="915" y="392" width="80" height="26" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="916.5" y="393.5" width="77" height="23" rx="3" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="955.0" y="409.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="middle">Evaluasi DT</text>
+<rect x="199" y="438" width="833" height="54" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+<text x="207" y="468" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" fill="#000000" text-anchor="start">5</text>
+<rect x="235" y="446" width="38" height="36" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="235" y1="446" x2="273" y2="482" stroke="#000000" stroke-width="1.2"/>
+<line x1="235" y1="482" x2="273" y2="446" stroke="#000000" stroke-width="1.2"/>
+<text x="285" y="462" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#000000" text-anchor="start">Kursi Lipat Chitose</text>
+<text x="285" y="476" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">Kode: AST-012</text>
+<text x="485" y="468" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">Kursi</text>
+<text x="595" y="468" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="start">4/5 (Baik)</text>
+<text x="685" y="468" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#555555" text-anchor="start">3 Thn</text>
+<rect x="755" y="456" width="140" height="18" rx="9.0" fill="#333333" stroke="#000000" stroke-width="1.2"/>
+<text x="825.0" y="468.5" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Layak Pakai</text>
+<rect x="915" y="452" width="80" height="26" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="916.5" y="453.5" width="77" height="23" rx="3" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="955.0" y="469.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#000000" text-anchor="middle">Evaluasi DT</text>
+</svg>

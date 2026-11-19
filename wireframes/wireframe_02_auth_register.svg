@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="100%" height="100%">
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M 1 1 L 7 4 L 1 7 Z" fill="#000000" />
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, Helvetica, sans-serif; user-select: none; }
+    </style>
+  </defs>
+<rect x="4" y="4" width="992" height="742" rx="8" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<rect x="4" y="4" width="992" height="30" rx="8" fill="#e8e8e8" stroke="#000000" stroke-width="1.5"/>
+<rect x="4" y="18" width="992" height="16" rx="0" fill="#e8e8e8" stroke="#e8e8e8" stroke-width="0"/>
+<line x1="4" y1="34" x2="996" y2="34" stroke="#000000" stroke-width="1.5"/>
+<text x="500.0" y="22" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">SIPANDA - Register</text>
+<rect x="968" y="9" width="20" height="18" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<line x1="971" y1="12" x2="985" y2="24" stroke="#000000" stroke-width="1.5"/>
+<line x1="971" y1="24" x2="985" y2="12" stroke="#000000" stroke-width="1.5"/>
+<rect x="4" y="34" width="992" height="38" rx="0" fill="#f8f8f8" stroke="#f8f8f8" stroke-width="0"/>
+<line x1="4" y1="72" x2="996" y2="72" stroke="#000000" stroke-width="1.5"/>
+<rect x="14" y="41" width="60" height="24" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="28" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">←</text>
+<line x1="44" y1="41" x2="44" y2="65" stroke="#000000" stroke-width="1"/>
+<text x="58" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">→</text>
+<rect x="80" y="41" width="28" height="24" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="94" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">↻</text>
+<rect x="116" y="41" width="866" height="24" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="126" y="57" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#000000" text-anchor="start">https://sipanda.dispora.palembang.go.id/register</text>
+<rect x="280" y="95" width="440" height="610" rx="8" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<rect x="470" y="111" width="60" height="46" rx="4" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="470" y1="111" x2="530" y2="157" stroke="#000000" stroke-width="1.2"/>
+<line x1="470" y1="157" x2="530" y2="111" stroke="#000000" stroke-width="1.2"/>
+<rect x="479.0" y="125.0" width="42" height="18" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+<text x="500.0" y="138.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="middle">LOGO</text>
+<text x="500" y="175" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="middle">Daftar Akun Peminjam</text>
+<line x1="304" y1="191" x2="696" y2="191" stroke="#000000" stroke-width="1"/>
+<text x="304" y="214" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Nama Lengkap</text>
+<rect x="304" y="219" width="392" height="32" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="314" y="239.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#777777" text-anchor="start">Ahmad Fauzi, S.STP</text>
+<text x="304" y="272" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Email</text>
+<rect x="304" y="277" width="392" height="32" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="314" y="297.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#777777" text-anchor="start">ahmad@bappeda.palembang.go.id</text>
+<text x="304" y="330" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">No. Telepon / WhatsApp</text>
+<rect x="304" y="335" width="392" height="32" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="314" y="355.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#777777" text-anchor="start">0812-3456-7890</text>
+<text x="304" y="388" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Kategori Instansi</text>
+<rect x="304" y="393" width="392" height="32" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="314" y="413.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#000000" text-anchor="start">Pemerintah / OPD (Prioritas 3)</text>
+<text x="678" y="413.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" fill="#000000" text-anchor="start">▼</text>
+<text x="304" y="446" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Password</text>
+<rect x="304" y="451" width="190.0" height="32" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="314" y="471.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#777777" text-anchor="start">••••••••</text>
+<text x="506.0" y="446" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#000000" text-anchor="start">Konfirmasi Password</text>
+<rect x="506.0" y="451" width="190.0" height="32" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="516.0" y="471.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#777777" text-anchor="start">••••••••</text>
+<rect x="304" y="507" width="16" height="16" rx="2" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<line x1="306" y1="509" x2="318" y2="521" stroke="#000000" stroke-width="1.5"/>
+<line x1="306" y1="521" x2="318" y2="509" stroke="#000000" stroke-width="1.5"/>
+<text x="328" y="519" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#000000" text-anchor="start">Saya menyetujui syarat &amp; ketentuan peminjaman aset</text>
+<rect x="304" y="541" width="392" height="40" rx="8" fill="#eaeaea" stroke="#000000" stroke-width="1.5"/>
+<rect x="305.5" y="542.5" width="389" height="37" rx="7" fill="none" stroke="#999999" stroke-width="1"/>
+<text x="500.0" y="565.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#000000" text-anchor="middle">Daftar Sekarang</text>
+<line x1="304" y1="603" x2="696" y2="603" stroke="#000000" stroke-width="1"/>
+<text x="500" y="627" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#555555" text-anchor="middle">Sudah memiliki akun?</text>
+<rect x="400" y="641" width="200" height="28" rx="6" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<rect x="401.5" y="642.5" width="197" height="25" rx="5" fill="none" stroke="#cccccc" stroke-width="1"/>
+<text x="500.0" y="659.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#000000" text-anchor="middle">Masuk ke Akun</text>
+<path d="M 770 315 Q 762.5 295.0 715 315" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#arrowhead)"/>
+<rect x="676.5" y="305" width="187" height="20" rx="3" fill="#333333" stroke="#000000" stroke-width="1"/>
+<text x="770" y="319" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">Priority Scheduling (1-3)</text>
+</svg>

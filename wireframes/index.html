@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIPANDA - Galeri Wireframe Hitam Putih (33 File SVG)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f1f5f9;
+            color: #0f172a;
+            min-height: 100vh;
+            padding: 30px 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 30px;
+            background: #ffffff;
+            border: 2px solid #000000;
+            border-radius: 12px;
+            box-shadow: 4px 4px 0px #000000;
+        }
+        .badge {
+            display: inline-block;
+            background: #000000;
+            color: #ffffff;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 30px;
+            font-weight: 800;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        p.subtitle {
+            font-size: 13px;
+            color: #475569;
+            max-width: 750px;
+            margin: 0 auto 16px;
+            line-height: 1.6;
+        }
+        .stats-summary {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-top: 16px;
+        }
+        .stat-item {
+            background: #f8fafc;
+            border: 1.5px solid #000000;
+            padding: 8px 18px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-item .num {
+            font-size: 20px;
+            font-weight: 800;
+            color: #000000;
+        }
+        .stat-item .lbl {
+            font-size: 11px;
+            font-weight: 600;
+            color: #555555;
+        }
+
+        /* Filter Controls */
+        .filter-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+            background: #ffffff;
+            padding: 14px 20px;
+            border-radius: 10px;
+            border: 2px solid #000000;
+            box-shadow: 3px 3px 0px #000000;
+        }
+        .filter-buttons {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            background: #ffffff;
+            border: 1.5px solid #000000;
+            color: #000000;
+            padding: 7px 14px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .filter-btn:hover, .filter-btn.active {
+            background: #000000;
+            color: #ffffff;
+        }
+        .search-box {
+            background: #ffffff;
+            border: 1.5px solid #000000;
+            padding: 7px 14px;
+            border-radius: 6px;
+            color: #000000;
+            font-size: 12px;
+            width: 250px;
+            outline: none;
+        }
+
+        /* Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+            gap: 22px;
+        }
+        .card {
+            background: #ffffff;
+            border: 2px solid #000000;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 3px 3px 0px #000000;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.15s;
+        }
+        .card:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 5px 5px 0px #000000;
+        }
+        .card-preview {
+            background: #ffffff;
+            padding: 8px;
+            height: 290px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border-bottom: 2px solid #000000;
+            position: relative;
+            overflow: hidden;
+        }
+        .card-preview img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .zoom-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.2s;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 13px;
+        }
+        .card-preview:hover .zoom-overlay {
+            opacity: 1;
+        }
+        .card-body {
+            padding: 16px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .card-meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 6px;
+        }
+        .role-tag {
+            font-size: 10px;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 4px;
+            border: 1px solid #000000;
+            text-transform: uppercase;
+            background: #ffffff;
+            color: #000000;
+        }
+        .file-num {
+            font-size: 11px;
+            color: #555555;
+            font-weight: 700;
+        }
+        .card-title {
+            font-size: 15px;
+            font-weight: 800;
+            color: #000000;
+            margin-bottom: 4px;
+        }
+        .card-url {
+            font-size: 11px;
+            color: #000000;
+            font-family: monospace;
+            margin-bottom: 8px;
+            word-break: break-all;
+            background: #f1f5f9;
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+        .card-desc {
+            font-size: 12px;
+            color: #475569;
+            line-height: 1.5;
+            margin-bottom: 14px;
+            flex: 1;
+        }
+        .card-actions {
+            display: flex;
+            gap: 8px;
+        }
+        .btn-view {
+            flex: 1;
+            background: #000000;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 7px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 700;
+            text-align: center;
+            border: 1.5px solid #000000;
+            cursor: pointer;
+        }
+        .btn-view:hover { background: #333333; }
+        .btn-raw {
+            background: #ffffff;
+            border: 1.5px solid #000000;
+            color: #000000;
+            text-decoration: none;
+            padding: 7px 12px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .btn-raw:hover { background: #eaeaea; }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 999;
+            padding: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+        .modal.open { display: flex; }
+        .modal-content {
+            background: #ffffff;
+            border: 2px solid #000000;
+            border-radius: 12px;
+            width: 95%;
+            max-width: 1200px;
+            height: 92vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 8px 8px 0px #000000;
+        }
+        .modal-header {
+            padding: 12px 20px;
+            background: #f8fafc;
+            border-bottom: 2px solid #000000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .modal-title { font-size: 15px; font-weight: 800; color: #000000; }
+        .modal-close {
+            background: #000000;
+            border: none;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 700;
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .modal-close:hover { background: #333333; }
+        .modal-body {
+            flex: 1;
+            padding: 16px;
+            background: #f1f5f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: auto;
+        }
+        .modal-body img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            background: #ffffff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="badge">Low-Fidelity Black & White Wireframe</div>
+        <h1>SIPANDA — 33 Wireframe Hitam Putih (SVG)</h1>
+        <p class="subtitle">
+            Seluruh halaman antarmuka sistem SIPANDA Dispora Palembang telah dibuat dalam format <strong>.SVG hitam putih / grayscale</strong> bergaya sketsa Balsamiq (window browser frame, X image placeholder, pill button beveled, checkbox [X], tag hitam putih, dan callout arrow).
+        </p>
+
+        <div class="stats-summary">
+            <div class="stat-item"><div class="num">33</div><div class="lbl">Total File SVG</div></div>
+            <div class="stat-item"><div class="num">4</div><div class="lbl">Auth & Akun</div></div>
+            <div class="stat-item"><div class="num">8</div><div class="lbl">Peminjam</div></div>
+            <div class="stat-item"><div class="num">7</div><div class="lbl">Pengelola</div></div>
+            <div class="stat-item"><div class="num">11</div><div class="lbl">Administrator</div></div>
+            <div class="stat-item"><div class="num">3</div><div class="lbl">Shared / Validasi</div></div>
+        </div>
+    </header>
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+        <div class="filter-buttons">
+            <button class="filter-btn active" onclick="filterRole('all')">Semua (33)</button>
+            <button class="filter-btn" onclick="filterRole('auth')">Auth (4)</button>
+            <button class="filter-btn" onclick="filterRole('peminjam')">Peminjam (8)</button>
+            <button class="filter-btn" onclick="filterRole('pengelola')">Pengelola (7)</button>
+            <button class="filter-btn" onclick="filterRole('admin')">Admin (11)</button>
+            <button class="filter-btn" onclick="filterRole('shared')">Shared (3)</button>
+        </div>
+        <input type="text" id="search" class="search-box" placeholder="🔍 Cari judul atau URL..." onkeyup="filterSearch()">
+    </div>
+
+    <!-- Cards Grid -->
+    <div class="grid" id="wireframe-grid"></div>
+</div>
+
+<!-- Modal Viewer -->
+<div class="modal" id="modal" onclick="closeModal(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+        <div class="modal-header">
+            <div>
+                <h3 class="modal-title" id="modal-title">Judul Wireframe</h3>
+                <p id="modal-url" style="font-size: 11px; color: #000000; font-family: monospace;"></p>
+            </div>
+            <button class="modal-close" onclick="closeModal()">✕ Tutup</button>
+        </div>
+        <div class="modal-body">
+            <img id="modal-img" src="" alt="Wireframe Preview">
+        </div>
+    </div>
+</div>
+
+<script>
+const wireframes = [
+    { num: "01", file: "wireframe_01_auth_login.svg", role: "auth", title: "Halaman Masuk (Login)", url: "/login", desc: "Form autentikasi email & password, remember me checkbox, link lupa password, link pendaftaran akun peminjam baru." },
+    { num: "02", file: "wireframe_02_auth_register.svg", role: "auth", title: "Pendaftaran Akun Peminjam", url: "/register", desc: "Form registrasi peminjam: nama, email, no WA, pemilihan kategori instansi untuk skor Priority Scheduling (1-3), password & konfirmasi." },
+    { num: "03", file: "wireframe_03_auth_forgot_password.svg", role: "auth", title: "Lupa Kata Sandi", url: "/forgot-password", desc: "Form pengiriman link reset password ke email terdaftar pengguna." },
+    { num: "04", file: "wireframe_04_auth_reset_password.svg", role: "auth", title: "Atur Ulang Kata Sandi", url: "/reset-password/{token}", desc: "Form input kata sandi baru dan konfirmasi kata sandi pasca verifikasi link email." },
+    { num: "05", file: "wireframe_05_peminjam_cari_aset.svg", role: "peminjam", title: "Katalog & Pencarian Aset", url: "/peminjam/cari", desc: "Halaman utama peminjam: Hero search bar, filter chip kategori, grid kartu aset siap pinjam dengan status Decision Tree." },
+    { num: "06", file: "wireframe_06_peminjam_dashboard.svg", role: "peminjam", title: "Dashboard Peminjam", url: "/peminjam/dashboard", desc: "Sapaan pengguna, widget badge Priority Score (3/3), 4 kartu statistik peminjaman, peminjaman aktif, dan notifikasi terbaru." },
+    { num: "07", file: "wireframe_07_peminjam_peminjaman_create.svg", role: "peminjam", title: "Form Permohonan Pinjaman", url: "/peminjam/peminjaman/buat", desc: "Form 2 kolom: detail peminjaman aset, tanggal sewa, tujuan acara, upload surat permohonan resmi, dan persetujuan syarat." },
+    { num: "08", file: "wireframe_08_peminjam_peminjaman_index.svg", role: "peminjam", title: "Riwayat & Daftar Pinjaman", url: "/peminjam/peminjaman", desc: "Tab filter status permohonan, list card transaksi dengan badge status, tombol detail, dan tombol unduh surat izin." },
+    { num: "09", file: "wireframe_09_peminjam_peminjaman_show.svg", role: "peminjam", title: "Detail Peminjaman & Barcode", url: "/peminjam/peminjaman/{id}", desc: "Stepper tahapan persetujuan, rincian permohonan, token Barcode QR digital untuk serah terima barang di gudang, tombol PDF." },
+    { num: "10", file: "wireframe_10_peminjam_keluhan_index.svg", role: "peminjam", title: "Daftar Laporan Keluhan", url: "/peminjam/keluhan", desc: "Tabel laporan keluhan kerusakan aset, status penanganan petugas, tombol buat keluhan baru." },
+    { num: "11", file: "wireframe_11_peminjam_keluhan_create.svg", role: "peminjam", title: "Form Buat Keluhan", url: "/peminjam/keluhan/buat", desc: "Pilih peminjaman/aset, judul kendala, deskripsi kerusakan rinci, dan upload bukti foto kondisi aset." },
+    { num: "12", file: "wireframe_12_peminjam_keluhan_show.svg", role: "peminjam", title: "Detail Keluhan & Respon", url: "/peminjam/keluhan/{id}", desc: "Detail keluhan peminjam, foto bukti, status penanganan, dan tanggapan tertulis resmi dari pengelola sarpras." },
+    { num: "13", file: "wireframe_13_pengelola_dashboard.svg", role: "pengelola", title: "Dashboard Pengelola", url: "/pengelola/dashboard", desc: "4 Kartu KPI pengelola, permohonan perlu verifikasi segera dengan Priority Score, dan daftar keluhan aset masuk." },
+    { num: "14", file: "wireframe_14_pengelola_peminjaman_index.svg", role: "pengelola", title: "Daftar Pengajuan Pinjaman", url: "/pengelola/peminjaman", desc: "Tabel antrean verifikasi pengajuan peminjam dengan sorting Priority Scheduling, status, dan tombol verifikasi." },
+    { num: "15", file: "wireframe_15_pengelola_peminjaman_show.svg", role: "pengelola", title: "Verifikasi & Kelola Peminjaman", url: "/pengelola/peminjaman/{id}", desc: "Form tindakan verifikasi catatan, konfirmasi ambil barang via scan barcode, dan konfirmasi pengembalian & kondisi aset." },
+    { num: "16", file: "wireframe_16_pengelola_aset_index.svg", role: "pengelola", title: "Daftar Aset & Status DT", url: "/pengelola/aset", desc: "Tabel aset sarpras, kondisi fisik, klasifikasi Decision Tree (Layak / Servis / Lelang), tombol evaluasi DT." },
+    { num: "17", file: "wireframe_17_pengelola_aset_penilaian_dt.svg", role: "pengelola", title: "Penilaian Decision Tree Aset", url: "/pengelola/aset/{id}/penilaian", desc: "Form parameter kriteria fisik, usia aset, riwayat servis, frekuensi pakai, dan visualisasi pohon aturan klasifikasi C4.5." },
+    { num: "18", file: "wireframe_18_pengelola_keluhan_index.svg", role: "pengelola", title: "Daftar Keluhan Masuk", url: "/pengelola/keluhan", desc: "Tabel laporan keluhan peminjam yang masuk ke pengelola sarpras beserta status penanganan." },
+    { num: "19", file: "wireframe_19_pengelola_keluhan_show.svg", role: "pengelola", title: "Respon & Penanganan Keluhan", url: "/pengelola/keluhan/{id}", desc: "Detail keluhan & foto dari peminjam, form penugasan teknisi, input respon solusi, dan checkbox alihkan status ke Maintenance." },
+    { num: "20", file: "wireframe_20_admin_dashboard.svg", role: "admin", title: "Dashboard Administrator", url: "/admin/dashboard", desc: "Statistik utama (User, Aset, Pengajuan, Keluhan), 4 mini KPI bulanan, tabel pengajuan & keluhan terbaru, info algoritma." },
+    { num: "21", file: "wireframe_21_admin_users_index.svg", role: "admin", title: "Manajemen User", url: "/admin/users", desc: "Tabel seluruh pengguna (Admin, Pengelola, Peminjam), filter role, status aktif, tombol tambah user baru." },
+    { num: "22", file: "wireframe_22_admin_users_create_edit.svg", role: "admin", title: "Form Tambah / Edit User", url: "/admin/users/buat", desc: "Input data profil pengguna, penetapan role, kategori instansi untuk Priority Score, password, dan status aktif." },
+    { num: "23", file: "wireframe_23_admin_users_show.svg", role: "admin", title: "Detail Profil User", url: "/admin/users/{id}", desc: "Card profil lengkap user, badge role, tab riwayat seluruh peminjaman dan keluhan yang pernah diajukan." },
+    { num: "24", file: "wireframe_24_admin_aset_index.svg", role: "admin", title: "Manajemen Master Aset", url: "/admin/aset", desc: "Tabel master aset publik Dispora: foto, kode, merk, jumlah stok, kondisi awal, status, aksi edit & hapus." },
+    { num: "25", file: "wireframe_25_admin_aset_create_edit.svg", role: "admin", title: "Form Tambah / Edit Aset", url: "/admin/aset/buat", desc: "Input kode aset, nama barang, kategori, merk, tahun pengadaan, jumlah unit/stok, lokasi gudang, upload foto aset." },
+    { num: "26", file: "wireframe_26_admin_aset_show.svg", role: "admin", title: "Detail Master Aset", url: "/admin/aset/{id}", desc: "Foto besar aset, barcode tag ID, metrik kelaikan Decision Tree, spesifikasi teknis, dan riwayat peminjaman aset ini." },
+    { num: "27", file: "wireframe_27_admin_aset_kategori.svg", role: "admin", title: "Manajemen Kategori Aset", url: "/admin/aset/kategori/daftar", desc: "Form tambah kategori baru di sebelah kiri dan tabel daftar kategori yang tersedia beserta jumlah aset di sebelah kanan." },
+    { num: "28", file: "wireframe_28_admin_peminjaman_index.svg", role: "admin", title: "Persetujuan Peminjaman Admin", url: "/admin/peminjaman", desc: "Tabel permohonan yang telah diverifikasi pengelola sarpras untuk disetujui / ditolak final oleh Admin / Kepala Dinas." },
+    { num: "29", file: "wireframe_29_admin_peminjaman_show.svg", role: "admin", title: "Detail & Approval Peminjaman", url: "/admin/peminjaman/{id}", desc: "Rincian pemohon, catatan rekomendasi pengelola, form approval kepala dinas, penerbitan surat izin & token barcode digital." },
+    { num: "30", file: "wireframe_30_admin_laporan_index.svg", role: "admin", title: "Laporan & Export Data", url: "/admin/laporan", desc: "Filter jenis laporan, rentang tanggal, tombol ekspor PDF & Excel (.xlsx), serta tabel pratinjau rekap data." },
+    { num: "31", file: "wireframe_31_profile_edit.svg", role: "shared", title: "Profil Pengguna & Password", url: "/profile", desc: "Form update informasi profil (nama, email, instansi), form perbarui kata sandi, dan form hapus akun." },
+    { num: "32", file: "wireframe_32_notifikasi_index.svg", role: "shared", title: "Pusat Notifikasi Sistem", url: "/notifikasi", desc: "Daftar notifikasi status peminjaman, respon keluhan aset, tombol tandai semua dibaca, dan link langsung ke dokumen." },
+    { num: "33", file: "wireframe_33_surat_scan_barcode_result.svg", role: "shared", title: "Validasi Barcode Surat Izin", url: "/surat/scan/{token}", desc: "Halaman publik validasi dokumen barcode: badge dokumen sah terverifikasi, nomor surat resmi, data peminjam, dan legalitas Dispora." }
+];
+
+function renderCards(list) {
+    const grid = document.getElementById('wireframe-grid');
+    grid.innerHTML = '';
+    
+    list.forEach(w => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+            <div class="card-preview" onclick="openModal('${w.title}', '${w.url}', '${w.file}')">
+                <img src="${w.file}" alt="${w.title}">
+                <div class="zoom-overlay">🔍 Klik untuk Pratinjau Layar Penuh</div>
+            </div>
+            <div class="card-body">
+                <div class="card-meta">
+                    <span class="role-tag">${w.role}</span>
+                    <span class="file-num">#${w.num} · ${w.file}</span>
+                </div>
+                <h3 class="card-title">${w.title}</h3>
+                <div class="card-url">${w.url}</div>
+                <p class="card-desc">${w.desc}</p>
+                <div class="card-actions">
+                    <button class="btn-view" onclick="openModal('${w.title}', '${w.url}', '${w.file}')">🔍 Layar Penuh</button>
+                    <a class="btn-raw" href="${w.file}" target="_blank" download>⬇️ SVG</a>
+                </div>
+            </div>
+        `;
+        grid.appendChild(card);
+    });
+}
+
+let currentFilter = 'all';
+function filterRole(role) {
+    currentFilter = role;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    applyFilters();
+}
+
+function filterSearch() {
+    applyFilters();
+}
+
+function applyFilters() {
+    const q = document.getElementById('search').value.toLowerCase();
+    const filtered = wireframes.filter(w => {
+        const matchesRole = (currentFilter === 'all' || w.role === currentFilter);
+        const matchesQuery = (w.title.toLowerCase().includes(q) || w.url.toLowerCase().includes(q) || w.desc.toLowerCase().includes(q));
+        return matchesRole && matchesQuery;
+    });
+    renderCards(filtered);
+}
+
+function openModal(title, url, file) {
+    document.getElementById('modal-title').textContent = title;
+    document.getElementById('modal-url').textContent = "Route: " + url + "  |  File: " + file;
+    document.getElementById('modal-img').src = file;
+    document.getElementById('modal').classList.add('open');
+}
+
+function closeModal() {
+    document.getElementById('modal').classList.remove('open');
+}
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+});
+
+renderCards(wireframes);
+</script>
+
+</body>
+</html>
